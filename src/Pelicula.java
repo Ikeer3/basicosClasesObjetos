@@ -18,7 +18,7 @@ public class Pelicula {
     }
 
     public void setDirector(String directorEntrada) {
-        director = directorEntrada;
+        director = directorEntrada.toUpperCase();
     }
 
     public int getAnhoEstreno() {
