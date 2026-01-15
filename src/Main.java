@@ -94,7 +94,30 @@ public class Main {
         System.out.println("\n---PELÍCULA 2---");
         System.out.println("Título: " + pelicula2.getTitulo() + "\nDirector: " + pelicula2.getDirector() + "\nAño de estreno: "
                 + pelicula2.getAnhoEstreno() + "\nDuración en minutos: " + pelicula2.getDuracionMinutos());
-    }
 
-    // ESTA PARTE PRUEBA LA CLASE YOUTUBER
+        // ESTA PARTE PRUEBA LA CLASE YOUTUBER
+
+        Youtuber youtuber1 = new Youtuber();
+        Youtuber youtuber2 = new Youtuber();
+        Youtuber youtuber3 = new Youtuber();
+
+        youtuber1.setNombreCanal("elRubiusOMG");
+        youtuber2.setNombreCanal("TheGrefg");
+        youtuber3.setNombreCanal("Willyrex");
+
+        youtuber1.setCategoria("Variedad");
+        youtuber2.setCategoria("Viajes");
+        youtuber3.setCategoria("Videojuegos");
+
+        youtuber1.setNumSubs(8000000);
+        youtuber2.setNumSubs(6000000);
+        youtuber3.setNumSubs(9000000);
+
+        System.out.println("\n---------------------------------------------------------------------------------------");
+        System.out.println("\nEl Youtuber " + youtuber2.getNombreCanal() + " tiene: " + youtuber2.getNumSubs() + " suscriptores");
+
+        youtuber2.setNumSubs(11000000);
+
+        System.out.println("Pasados dos meses tiene: " + youtuber2.getNumSubs() + " suscriptores");
+    }
 }
