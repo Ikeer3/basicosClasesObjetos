@@ -3,7 +3,7 @@ public class JugadorFutbol {
     private String nombre;
     private String equipo;
     private int dorsal;
-    private int posicion;
+    private String posicion;
 
     public String getNombre() {
         return nombre;
@@ -29,11 +29,11 @@ public class JugadorFutbol {
         dorsal = dorsalEntrada;
     }
 
-    public int getPosicion() {
+    public String getPosicion() {
         return posicion;
     }
 
-    public void setPosicion(int posicionEntrada) {
+    public void setPosicion(String posicionEntrada) {
         posicion = posicionEntrada;
     }
 }
