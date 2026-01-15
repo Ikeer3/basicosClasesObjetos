@@ -95,4 +95,6 @@ public class Main {
         System.out.println("Título: " + pelicula2.getTitulo() + "\nDirector: " + pelicula2.getDirector() + "\nAño de estreno: "
                 + pelicula2.getAnhoEstreno() + "\nDuración en minutos: " + pelicula2.getDuracionMinutos());
     }
+
+    // ESTA PARTE PRUEBA LA CLASE YOUTUBER
 }
