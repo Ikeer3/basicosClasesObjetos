@@ -169,5 +169,14 @@ public class Main {
 
         System.out.println("\nDespués de la actualización la skin de " + skin1.getNombre() + " ha cambiado su rareza a "
                 + skin1.getRareza() + " con un precio de: " + skin1.getPrecioMonedas() + " monedas");
+
+        // ESTA PARTE PRUEBA LA CLASE POKEMON
+
+        Pokemon pokemon1 = new Pokemon();
+
+        pokemon1.setNombre("Snorlax");
+        pokemon1.setTipo("Normal");
+        pokemon1.setNivel(50);
+        pokemon1.setVida(130);
     }
 }
