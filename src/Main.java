@@ -211,5 +211,16 @@ public class Main {
 
         System.out.println("\nDespués de la victoria de " + equipo1.getNombre() + " en el europeo de " + equipo1.getJuego()
                 + ", ha ascendido hasta el ránking " + equipo1.getRankingMundial() + " mundial!!");
+
+        // ESTA PARTE PRUEBA LA CLASE CANCIÓN STATS
+
+        CancionStats cancionStats1 = new CancionStats();
+
+        for (int i = 0; i < 10; i++) {
+            cancionStats1.reproducir();
+        }
+
+        System.out.println("\n---------------------------------------------------------------------------------------");
+        System.out.println("\nEl número total de reproducciones fue: " + cancionStats1.getNumReproducciones());
     }
 }
