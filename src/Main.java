@@ -226,5 +226,11 @@ public class Main {
 
         System.out.println("Tras su éxito, el número total de reproducciones de " + cancionStats1.getTitulo() +
                 " fue: " + cancionStats1.getNumReproducciones());
+
+        // ESTA PARTE PRUEBA LA CLASE MARCADOR
+
+        Marcador marcador1 = new Marcador("RC Deportivo", "FC Barcelona");
+
+        marcador1
     }
 }
