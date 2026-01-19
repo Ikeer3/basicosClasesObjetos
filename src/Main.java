@@ -242,5 +242,7 @@ public class Main {
         marcador1.golLocal();
         System.out.println("\nMinuto 91 - " + "GOOOL!! del " + marcador1.getEquipoLocal());
         System.out.println(marcador1.resultado());
+        System.out.println("\nFinal del Partido");
+        System.out.println(marcador1.resultado());
     }
 }
