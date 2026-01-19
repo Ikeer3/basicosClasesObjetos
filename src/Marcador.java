@@ -6,14 +6,14 @@ public class Marcador {
     private int golesVisitante;
 
     public void golLocal() {
-        golesLocal++;
+        ;
     }
 
     public void golVisitante() {
         golesVisitante++;
     }
 
-    public int resultado(int x, int y) {
-        return x - y;
+    public int resultado(int golesLocal, int golesVisitante) {
+        return golesLocal - golesVisitante;
     }
 }
