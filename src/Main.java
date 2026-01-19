@@ -231,6 +231,7 @@ public class Main {
 
         Marcador marcador1 = new Marcador("RC Deportivo", "FC Barcelona");
 
-        marcador1
+        System.out.println("\n---------------------------------------------------------------------------------------");
+        System.out.println("\nGol de depor");
     }
 }

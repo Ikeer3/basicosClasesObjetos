@@ -20,8 +20,9 @@ public class Marcador {
         golesVisitante++;
     }
 
-    public int resultado(int golesLocal, int golesVisitante) {
-        return golesLocal - golesVisitante;
+    public String resultado(int golesLocal, int golesVisitante) {
+        String imprimir = golesLocal + " - " + golesVisitante;
+        return imprimir;
     }
 
     public String getEquipoLocal() {
