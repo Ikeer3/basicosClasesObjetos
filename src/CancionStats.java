@@ -6,4 +6,8 @@ public class CancionStats {
     public void reproducir() {
         numReproducciones++;
     }
+
+    public int getNumReproducciones() {
+        return numReproducciones;
+    }
 }
