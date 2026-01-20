@@ -6,11 +6,16 @@ public class BateriaMovil {
         this.porcentaje = porcentaje;
     }
 
+    public int getPorcentaje() {
+        return porcentaje;
+    }
+
     public void usar(int minutos) {
-        if (porcentaje == 0) {
-            System.out.println("El móvil se ha quedado sin batería");
+        if (minutos > porcentaje) {
+            System.out.println("\nEl móvil se ha quedado sin batería");
         } else {
-            porcentaje--;
+            int porcentajeEntrada = minutos / 1;
+            porcentaje = porcentaje - porcentajeEntrada;
         }
     }
 
@@ -18,7 +23,7 @@ public class BateriaMovil {
         if (porcentaje == 100) {
             System.out.println("El móvil tiene el 100% de la batería");
         } else {
-            porcentaje++;
+            porcentaje = minutos * 10;
         }
     }
 }

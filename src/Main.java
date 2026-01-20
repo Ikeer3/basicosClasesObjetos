@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -244,5 +246,16 @@ public class Main {
         System.out.println(marcador1.resultado());
         System.out.println("\nFinal del Partido");
         System.out.println(marcador1.resultado());
+
+        // ESTA PARTE PRUEBA LA CLASE BATERÍA MÓVIL
+
+        BateriaMovil movil1 = new BateriaMovil(50);
+
+        int minutos = 51;
+
+        System.out.println("\n---------------------------------------------------------------------------------------");
+        movil1.usar(minutos);
+        System.out.println("\nCarlos ha usado el móvil " + minutos + " minutos y le queda un " + movil1.getPorcentaje()
+                + "% de batería");
     }
 }
