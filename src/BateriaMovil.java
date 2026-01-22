@@ -19,7 +19,7 @@ public class BateriaMovil {
     }
 
     public void cargar(int minutos) {
-        porcentaje = porcentaje + (minutos * 1);
+        porcentaje = porcentaje + (minutos / 2);
         if (porcentaje >= 100) {
             porcentaje = 100;
             System.out.println("El móvil ya tiene el 100% de la batería");

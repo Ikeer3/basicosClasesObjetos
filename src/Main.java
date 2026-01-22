@@ -259,9 +259,9 @@ public class Main {
         System.out.println("\nCarlos ha usado el móvil " + minutos + " minutos y le queda un " + movil1.getPorcentaje()
                     + "% de batería");
 
-        minutos = 40;
+        minutos = 50;
+        movil1.cargar(minutos);
         System.out.println("\nCarlos ha cargado el móvil " + minutos + " minutos y le queda un " + movil1.getPorcentaje()
                 + "% de batería");
-        movil1.cargar(minutos);
     }
 }
