@@ -11,19 +11,18 @@ public class BateriaMovil {
     }
 
     public void usar(int minutos) {
-        if (minutos > porcentaje) {
+        porcentaje = porcentaje - (minutos / 1);
+        if (porcentaje <= 0) {
+            porcentaje = 0;
             System.out.println("\nEl móvil se ha quedado sin batería");
-        } else {
-            int porcentajeEntrada = minutos / 1;
-            porcentaje = porcentaje - porcentajeEntrada;
         }
     }
 
     public void cargar(int minutos) {
-        if (porcentaje == 100) {
-            System.out.println("El móvil tiene el 100% de la batería");
-        } else {
-            porcentaje = minutos * 10;
+        porcentaje = porcentaje + (minutos * 1);
+        if (porcentaje >= 100) {
+            porcentaje = 100;
+            System.out.println("El móvil ya tiene el 100% de la batería");
         }
     }
 }
