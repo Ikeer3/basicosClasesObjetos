@@ -286,5 +286,21 @@ public class Main {
         System.out.println(personaje1.getNombre() + " se cura y le quedan " + personaje1.getVida() + " puntos de vida");
         personaje1.sigueVivo();
 
+        // ESTA PARTE PRUEBA LA CLASE CUENTA BANCARIA
+
+        CuentaBancaria cuenta1 = new CuentaBancaria("Iker", 1000);
+
+        int dinero = 500;
+
+        System.out.println("\n---------------------------------------------------------------------------------------");
+        cuenta1.estadoCuenta();
+        System.out.println("Retiro de " + dinero + "$");
+        cuenta1.retirar(dinero);
+        cuenta1.estadoCuenta();
+
+        dinero = 600;
+        System.out.println("Ingreso de " + dinero + "$");
+        cuenta1.ingresar(dinero);
+        cuenta1.estadoCuenta();
     }
 }

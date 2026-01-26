@@ -15,11 +15,12 @@ public class CuentaBancaria {
     public void retirar(int dinero) {
         saldo = saldo - dinero;
         if (saldo < dinero) {
+            saldo = 0;
             System.out.println("Saldo insuficiente!!");
         }
     }
 
     public void estadoCuenta() {
-        System.out.println("La cuenta de " + titular + " tiene un saldo de " + saldo + "$");
+        System.out.println("\nLa cuenta de " + titular + " tiene un saldo de " + saldo + "$");
     }
 }
