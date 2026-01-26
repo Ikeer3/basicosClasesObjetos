@@ -268,7 +268,7 @@ public class Main {
 
         Personaje personaje1 = new Personaje(100, 40, "Joel");
 
-        int pocion = 40;
+        int pocion = 30;
 
         System.out.println("\n---------------------------------------------------------------------------------------");
         System.out.println("\n" + personaje1.getNombre() + " tiene " + personaje1.getVida() + " puntos de vida");
