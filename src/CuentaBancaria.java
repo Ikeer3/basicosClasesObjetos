@@ -5,7 +5,13 @@ public class CuentaBancaria {
 
     public CuentaBancaria(String titular, int saldo) {
         this.titular = titular;
-        this.saldo = saldo;
+        if (saldo < 0) {
+            System.out.println("\nERROR!! No se permiten cuentas con saldo negativo");
+            this.saldo = 0;
+        } else {
+            this.saldo = saldo;
+        }
+
     }
 
     public void ingresar(int dinero) {

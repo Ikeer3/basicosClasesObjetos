@@ -290,17 +290,14 @@ public class Main {
 
         CuentaBancaria cuenta1 = new CuentaBancaria("Iker", 1000);
 
-        int dinero = 500;
-
         System.out.println("\n---------------------------------------------------------------------------------------");
         cuenta1.estadoCuenta();
-        System.out.println("Retiro de " + dinero + "$");
-        cuenta1.retirar(dinero);
+        System.out.println("Retiro de 500$");
+        cuenta1.retirar(500);
         cuenta1.estadoCuenta();
 
-        dinero = 600;
-        System.out.println("Ingreso de " + dinero + "$");
-        cuenta1.ingresar(dinero);
+        System.out.println("Ingreso de 600$");
+        cuenta1.ingresar(600);
         cuenta1.estadoCuenta();
     }
 }
