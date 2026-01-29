@@ -13,10 +13,10 @@ public class CuentaBancaria {
     }
 
     public void retirar(int dinero) {
-        saldo = saldo - dinero;
         if (saldo < dinero) {
-            saldo = 0;
             System.out.println("Saldo insuficiente!!");
+        } else {
+            saldo = saldo - dinero;
         }
     }
 
