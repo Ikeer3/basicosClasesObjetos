@@ -1,3 +1,5 @@
+package Pelicula;
+
 public class Pelicula {
 
     private String titulo;
