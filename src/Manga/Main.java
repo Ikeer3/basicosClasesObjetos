@@ -10,7 +10,6 @@ public class Main {
         manga1.setNumVolumen(115);
         manga1.setLeido(true);
 
-        System.out.println("\n---------------------------------------------------------------------------------------");
         System.out.println("\n---MANGA 1---");
         System.out.println("Título: " + manga1.getTitulo() + "\nAutor: " + manga1.getAutor() + "\nNúmero de volumen: "
                 + manga1.getNumVolumen() + "\nLeído: " + manga1.isLeido());

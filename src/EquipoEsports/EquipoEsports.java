@@ -1,3 +1,5 @@
+package EquipoEsports;
+
 public class EquipoEsports {
 
     private String nombre;

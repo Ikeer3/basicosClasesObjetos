@@ -1,40 +1,8 @@
+import EquipoEsports.EquipoEsports;
 import Manga.Manga;
 
 public class Main {
     public static void main(String[] args) {
-
-        // ESTA PARTE PRUEBA LA CLASE MANGA
-
-        Manga manga1 = new Manga();
-
-        manga1.setTitulo("Shingeki no Kyojin");
-        manga1.setAutor("Hajime Isayama");
-        manga1.setNumVolumen(115);
-        manga1.setLeido(true);
-
-        System.out.println("\n---------------------------------------------------------------------------------------");
-        System.out.println("\n---MANGA 1---");
-        System.out.println("Título: " + manga1.getTitulo() + "\nAutor: " + manga1.getAutor() + "\nNúmero de volumen: "
-                + manga1.getNumVolumen() + "\nLeído: " + manga1.isLeido());
-
-        // ESTA PARTE PRUEBA LA CLASE EQUIPO ESPORTS
-
-        EquipoEsports equipo1 = new EquipoEsports();
-
-        equipo1.setNombre("Heretics");
-        equipo1.setJuego("Fortnite");
-        equipo1.setPais("España");
-        equipo1.setRankingMundial(7);
-
-        System.out.println("\n---------------------------------------------------------------------------------------");
-        System.out.println("\n---EQUIPO 1---");
-        System.out.println("Nombre: " + equipo1.getNombre() + "\nJuego: " + equipo1.getJuego() + "\nPaís: "
-                + equipo1.getPais() + "\nRánking Mundial: " + equipo1.getRankingMundial());
-
-        equipo1.setRankingMundial(3);
-
-        System.out.println("\nDespués de la victoria de " + equipo1.getNombre() + " en el europeo de " + equipo1.getJuego()
-                + ", ha ascendido hasta el ránking " + equipo1.getRankingMundial() + " mundial!!");
 
         // ESTA PARTE PRUEBA LA CLASE CANCIÓN STATS
 
