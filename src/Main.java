@@ -1,24 +1,7 @@
-import Marcador.Marcador;
+import BateriaMovil.BateriaMovil;
 
 public class Main {
     public static void main(String[] args) {
-
-        // ESTA PARTE PRUEBA LA CLASE BATERÍA MÓVIL
-
-        BateriaMovil movil1 = new BateriaMovil(100);
-
-        int minutos = 80;
-
-        System.out.println("\n---------------------------------------------------------------------------------------");
-
-        movil1.usar(minutos);
-        System.out.println("\nCarlos ha usado el móvil " + minutos + " minutos y le queda un " + movil1.getPorcentaje()
-                    + "% de batería");
-
-        minutos = 50;
-        movil1.cargar(minutos);
-        System.out.println("\nCarlos ha cargado el móvil " + minutos + " minutos y le queda un " + movil1.getPorcentaje()
-                + "% de batería");
 
         // ESTA PARTE PRUEBA LA CLASE PERSONAJE
 

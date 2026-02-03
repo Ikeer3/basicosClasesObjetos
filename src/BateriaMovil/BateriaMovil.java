@@ -1,3 +1,5 @@
+package BateriaMovil;
+
 public class BateriaMovil {
 
     private int porcentaje;
