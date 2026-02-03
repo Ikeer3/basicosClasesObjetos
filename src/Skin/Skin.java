@@ -1,3 +1,5 @@
+package Skin;
+
 public class Skin {
 
     private String nombre;

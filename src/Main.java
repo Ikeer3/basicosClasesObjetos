@@ -1,4 +1,4 @@
-import JugadorFutbol.JugadorFutbol;
+import Skin.Skin;
 
 public class Main {
     public static void main(String[] args) {
