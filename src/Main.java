@@ -1,52 +1,7 @@
-import Pelicula.Pelicula;
-import YouTuber.Youtuber;
+import JugadorFutbol.JugadorFutbol;
 
 public class Main {
     public static void main(String[] args) {
-
-        // ESTA PARTE PRUEBA LA CLASE YOUTUBER
-
-        Youtuber youtuber1 = new Youtuber();
-        Youtuber youtuber2 = new Youtuber();
-        Youtuber youtuber3 = new Youtuber();
-
-        youtuber1.setNombreCanal("elRubiusOMG");
-        youtuber2.setNombreCanal("TheGrefg");
-        youtuber3.setNombreCanal("Willyrex");
-
-        youtuber1.setCategoria("Variedad");
-        youtuber2.setCategoria("Viajes");
-        youtuber3.setCategoria("Videojuegos");
-
-        youtuber1.setNumSubs(8000000);
-        youtuber2.setNumSubs(6000000);
-        youtuber3.setNumSubs(9000000);
-
-        System.out.println("\n---------------------------------------------------------------------------------------");
-        System.out.println("\nEl YouTuber.Youtuber " + youtuber2.getNombreCanal() + " tiene: " + youtuber2.getNumSubs() + " suscriptores");
-
-        youtuber2.setNumSubs(11000000);
-
-        System.out.println("Pasados dos meses tiene: " + youtuber2.getNumSubs() + " suscriptores");
-
-        // ESTA PARTE PRUEBA LA CLASE JUGADOR FUTBOL
-
-        JugadorFutbol jugador1 = new JugadorFutbol();
-
-        jugador1.setNombre("Pedri");
-        jugador1.setEquipo("FC Barcelona");
-        jugador1.setDorsal(3);
-        jugador1.setPosicion("Delantero");
-
-        System.out.println("\n---------------------------------------------------------------------------------------");
-        System.out.println("\n---JUGADOR 1---");
-        System.out.println("Nombre: " + jugador1.getNombre() + "\nEquipo: " + jugador1.getEquipo() + "\nDorsal: "
-                + jugador1.getDorsal() + "\nPosición: " + jugador1.getPosicion());
-
-        jugador1.setEquipo("Real Deportivo de la Coruña");
-        jugador1.setDorsal(10);
-
-        System.out.println("\nTras su fichaje por el " + jugador1.getEquipo() + ", ahora su dorsal es el " + jugador1.getDorsal());
 
         // ESTA PARTE PRUEBA LA CLASE SKIN
 

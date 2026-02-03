@@ -1,3 +1,5 @@
+package JugadorFutbol;
+
 public class JugadorFutbol {
 
     private String nombre;
