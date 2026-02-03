@@ -1,17 +1,7 @@
-import Pokemon.Pokemon;
-import Skin.Skin;
+import Manga.Manga;
 
 public class Main {
     public static void main(String[] args) {
-
-        // ESTA PARTE PRUEBA LA CLASE POKEMON
-
-        Pokemon pokemon1 = new Pokemon();
-
-        pokemon1.setNombre("Snorlax");
-        pokemon1.setTipo("Normal");
-        pokemon1.setNivel(50);
-        pokemon1.setVida(130);
 
         // ESTA PARTE PRUEBA LA CLASE MANGA
 

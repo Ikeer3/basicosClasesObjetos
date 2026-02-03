@@ -1,3 +1,5 @@
+package Manga;
+
 public class Manga {
 
     private String titulo;
