@@ -1,3 +1,5 @@
+package YouTuber;
+
 public class Youtuber {
 
     private String nombreCanal;
