@@ -1,3 +1,5 @@
+package CancionStats;
+
 public class CancionStats {
 
     private String titulo;
