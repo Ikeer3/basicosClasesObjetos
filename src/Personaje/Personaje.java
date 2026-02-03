@@ -1,3 +1,5 @@
+package Personaje;
+
 public class Personaje {
 
     private String nombre;
