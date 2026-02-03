@@ -1,3 +1,5 @@
+package Cancion;
+
 public class Cancion {
 
     private String titulo;
