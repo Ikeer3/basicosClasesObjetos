@@ -1,3 +1,5 @@
+package Marcador;
+
 public class Marcador {
 
     private String equipoLocal;
